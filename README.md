@@ -28,6 +28,3 @@ This repository contains infrastructure and architectural decisions, code, and c
 6. Deploy multi-tenant backend and frontend applications.
 
 ---
-
-Feel free to contribute or request scripts and examples for each step!
-
