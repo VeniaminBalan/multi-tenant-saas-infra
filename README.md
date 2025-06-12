@@ -5,8 +5,19 @@ This repository contains infrastructure and architectural decisions, code, and c
 - K3s (Lightweight Kubernetes)
 - Traefik ingress controller with wildcard subdomains
 - Keycloak for authentication and tenant realm management
-- .NET MVC Admin Panel for tenant management
+- Admin Panel for tenant management
 - Multi-tenant backend and frontend applications
+
+
+## Project Goals
+
+- **Build a scalable and cost-effective Kubernetes infrastructure** on Hetzner VPS using K3s.
+- **Implement multi-tenancy using subdomain routing**, enabling tenant isolation and easy management.
+- **Deploy Keycloak** for secure and flexible tenant authentication with realm separation.
+- **Develop a custom admin panel** for creating and managing tenants dynamically.
+- **Demonstrate multi-tenant backend and frontend applications** that consume tenant context and integrate with Keycloak.
+- **Test infrastructure scalability and resilience** through stress testing and monitoring.
+- **Document best practices and architectural decisions** for multi-tenant SaaS on self-managed Kubernetes.
 
 ---
 
